@@ -19,8 +19,6 @@ function qtdBankNotesWithdraw({
   return result;
 }
 
-const qtdBankNotes = qtdBankNotesWithdraw({
-  withdrawValue: 101,
-});
+const qtdBankNotes = qtdBankNotesWithdraw({ withdrawValue: 101 });
 
 console.log(qtdBankNotes);
